@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS users (
     blood_group VARCHAR(2),
     blood_rh VARCHAR(20),
     blood_kell VARCHAR(20),
+    blood_phenotype VARCHAR(128),
     created_at TIMESTAMP WITHOUT TIME ZONE,
     CONSTRAINT PK_USER PRIMARY KEY (id)
 );
